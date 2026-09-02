@@ -1,0 +1,26 @@
+@startmindmap
+
+skinparam monochrome true
+skinparam ArrowColor #000000
+skinparam NodeFontSize 14
+
+* Marcação de Consulta ao Dentista
+** O quê (What)
+*** Resolver dificuldade de marcação
+*** Reduzir atrasos, erros e cancelamentos
+*** Centralizar agenda em ferramenta única
+*** Visualizar horários em tempo real
+*** Cancelamento/remarcação pelo paciente
+*** Lista de espera para encaixes
+
+-- Por quê (Why)
+--- Garantir acesso rápido ao atendimento
+--- Melhorar experiência do paciente
+--- Diminuir faltas e horários ociosos
+--- Reduzir perdas financeiras
+--- Aumentar fidelização do paciente
+---- Como (How)
+----- Implementar sistema de agendamento online 
+
+
+@endmindmap
