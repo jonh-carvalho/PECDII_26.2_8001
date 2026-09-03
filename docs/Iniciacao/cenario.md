@@ -66,12 +66,12 @@ O banco relacional deve usar chaves primárias, chaves estrangeiras, restriçõe
 
 | Fase | Semanas | Entregáveis e marco |
 |---|---:|---|
-| Incepção | 1-5 | Visão do produto, stakeholders, backlog inicial, casos de uso prioritários, critérios de aceitação e repositório configurado. Marco: escopo do MVP aprovado. |
-| Elaboração | 6-8 | Modelo de domínio, DER, diagramas UML, arquitetura, protótipo de rotas, riscos e plano de iteração. Marco: arquitetura validada e base de dados modelada. |
-| Construção - Iteração 1 | 9-109 | Autenticação, perfis, cadastros de aluno/profissional/serviço, migrações e testes de domínio. Marco: base administrativa utilizável pela API. |
+| Incepção | 1-5 | Visão do produto, stakeholders, backlog inicial, 5w3h, brainstorm e mapa mental|
+| Elaboração | 6-8 |  casos de uso prioritários, critérios de aceitação e repositório configurado. Marco: escopo do MVP aprovado. , Modelo de domínio, DER, diagramas UML, arquitetura, protótipo de rotas, riscos e plano de iteração. Marco: arquitetura validada e base de dados modelada. |
+| Construção - Iteração 1 | 9-10 | Autenticação, perfis, cadastros de aluno/profissional/serviço, migrações e testes de domínio. Marco: base administrativa utilizável pela API. |
 | Construção - Iteração 2 | 11-12 | Regras de disponibilidade, bloqueios, agendamento, consulta de agenda e testes de concorrência/validação. Marco: agenda funcional. |
 | Construção - Iteração 3 | 13-14 | Presença, aula ministrada, relatórios de treino, dashboard simples, auditoria e documentação de endpoints. Marco: fluxo operacional completo. |
-| Construção - Iteração 3 | 13-14 | Presença, aula ministrada, relatórios de treino, dashboard simples, auditoria e documentação de endpoints. Marco: fluxo operacional completo. |
+| Construção - Iteração 3 | 15-16 | Presença, aula ministrada, relatórios de treino, dashboard simples, auditoria e documentação de endpoints. Marco: fluxo operacional completo. |
 | Transição | 17-18 | Testes de aceitação, correção de defeitos, demonstração, release, retrospectiva e apresentação técnica. Marco: aplicativo entregue. |
 
 ## 8. Artefatos UML obrigatórios
