@@ -14,7 +14,7 @@ hide:
             PECDII_26.2_8001_I
         </div>
         <div class="card-content">
-            <p class="contributors">XXX, xxx, xxx,xxxx</p>
+            <p class="contributors">Lucas Santos, Rodrigo Abrantes, Pedro Lucas</p>
             <a href="https://github.com/Projetos-de-Extensao/PECDII_26.2_8001_I" class="button primary-btn">
                 <span class="octicon-arrow-right-24:"></span> Ver Repositório
             </a>
@@ -27,7 +27,7 @@ hide:
             PECDII_26.2_8001_II
         </div>
         <div class="card-content">
-            <p class="contributors">xxx, xxx, xxx, xxx</p>
+            <p class="contributors">Vitor Luiz, Vitor Freire, Gabriel Almeida, Filipe </p>
             <a href="https://github.com/Projetos-de-Extensao/PECDII_26.2_8001_II" class="button primary-btn">
                 <span class="octicon-arrow-right-24:"></span> Ver Repositório
             </a>
@@ -40,7 +40,7 @@ hide:
             PECDII_26.2_8001_III
         </div>
         <div class="card-content">
-            <p class="contributors">XXX, xxx, xxx,xxxx</p>
+            <p class="contributors">Brenno Marques, Bernardo Lopes, Juan Lucas, Caio Magalhães</p>
             <a href="https://github.com/Projetos-de-Extensao/PECDII_26.2_8001_III" class="button primary-btn">
                 <span class="octicon-arrow-right-24:"></span> Ver Repositório
             </a>
@@ -53,7 +53,7 @@ hide:
             PECDII_26.2_8001_IV
         </div>
         <div class="card-content">
-            <p class="contributors">XXX, xxx, xxx,xxxx</p>
+            <p class="contributors">Daniel, Marcos Vinicius, Maria Eduarda, Pedro Henrique</p>
             <a href="https://github.com/Projetos-de-Extensao/PECDII_26.2_8001_IV" class="button primary-btn">
                 <span class="octicon-arrow-right-24:"></span> Ver Repositório
             </a>
