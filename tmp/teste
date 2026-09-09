@@ -1,0 +1,21 @@
+tir Employee: (start missing something)
+user Specify the need
+script Check if goods are in stock
+Goods in stock?
+Yes
+Officer: user Approve good allocation
+Employee: manual Use goods from stock
+
+...
+Goods in stock?
+No 
+user Create purchase requisition
+Officer: user Approve purchase requisition
+Central procurement: user Check purchase requisition
+script Create order from purchase requisition
+Officer: user Sign order
+Central procurement: send order
+Warehouse: manual Wait for order delivery
+(timer no delivery in 1 month)
+Central procurement: user Contact supplier
+manual Wait for order delivery

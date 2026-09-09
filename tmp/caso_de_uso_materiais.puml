@@ -1,0 +1,65 @@
+@startuml CasoDeUso_Materiais
+
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor Funcionario as Employee
+actor Responsavel as Officer
+actor "Compras Centrais" as Procurement
+actor Almoxarifado as Warehouse
+actor Fornecedor as Supplier
+
+rectangle "Sistema de Gestao de Materiais" {
+  usecase "UC01: Solicitar material" as UC01
+  usecase "UC02: Verificar disponibilidade em estoque" as UC02
+  usecase "UC03: Aprovar alocacao do estoque" as UC03
+  usecase "UC04: Retirar material do estoque" as UC04
+  usecase "UC05: Criar requisicao de compra" as UC05
+  usecase "UC06: Aprovar requisicao de compra" as UC06
+  usecase "UC07: Conferir requisicao de compra" as UC07
+  usecase "UC08: Gerar pedido de compra" as UC08
+  usecase "UC09: Assinar pedido de compra" as UC09
+  usecase "UC10: Enviar pedido ao fornecedor" as UC10
+  usecase "UC11: Acompanhar entrega" as UC11
+  usecase "UC12: Contatar fornecedor sobre atraso" as UC12
+}
+
+Employee --> UC01
+Employee --> UC04
+Employee --> UC05
+Officer --> UC03
+Officer --> UC06
+Officer --> UC09
+Procurement --> UC07
+Procurement --> UC10
+Procurement --> UC12
+Warehouse --> UC11
+Supplier --> UC10
+Supplier --> UC12
+
+UC01 .> UC02 : <<include>>
+UC03 .> UC01 : <<extend>>
+UC04 .> UC03 : <<include>>
+UC05 .> UC01 : <<extend>>
+UC06 .> UC05 : <<include>>
+UC07 .> UC06 : <<include>>
+UC08 .> UC07 : <<include>>
+UC09 .> UC08 : <<include>>
+UC10 .> UC09 : <<include>>
+UC11 .> UC10 : <<include>>
+UC12 .> UC11 : <<extend>>
+
+note right of UC01
+  Pre-condicao: o funcionario identifica
+  a necessidade de um material.
+  Pos-condicao: o material e obtido do
+  estoque ou encaminhado para compra.
+end note
+
+note right of UC12
+  Executado quando o pedido nao e
+  entregue no prazo de um mes.
+end note
+
+@enduml
