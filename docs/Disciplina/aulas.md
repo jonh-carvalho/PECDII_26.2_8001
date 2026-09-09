@@ -7,8 +7,10 @@
 | __03__ - 17/08/26     | :material-check: [RUP](../assets/Aulas/RUP.pdf) |
 | __04__ - 24/08/26     | :material-check: Tema | 
 | __05__ - 02/09/26     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
-
-
+| __06__ - 09/09/26     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf)  <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
+| __07__ - 16/09/26     | :material-check: Ibmec Day|
+| __08__ - 23/09/26     | :material-check:  |
+| __09__ - 30/09/26     | :material-check: AP1 |
 <!--
 
 | __06__ - 03/04/26     | :material-check: Feriado |
