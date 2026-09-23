@@ -29,8 +29,8 @@ nav:
         - Iniciação: 
           - 05 - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
           - 05 - RUP/UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
-#        - Elaboração:
-#          - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
+        - Elaboração:
+          - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
 #        - Construção:
 #          - POO:
 #            - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
