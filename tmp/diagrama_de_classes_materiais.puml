@@ -1,0 +1,89 @@
+@startuml DiagramaDeClasses_Materiais
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+
+abstract class Usuario {
+  
+}
+
+
+class Responsavel {
+  
+}
+
+class ComprasCentrais {
+  
+}
+
+class Almoxarifado {
+  
+}
+
+class Material {
+  
+}
+
+class Estoque {
+ 
+}
+
+class ItemEstoque {
+  
+}
+
+class SolicitacaoMaterial {
+  
+}
+
+class ItemSolicitacao {
+  
+}
+
+class RetiradaMaterial {
+  
+}
+
+class RequisicaoCompra {
+  
+}
+
+class ItemRequisicao {
+ 
+}
+
+class PedidoCompra {
+  
+}
+
+class ItemPedido {
+  
+}
+
+class Fornecedor {
+  
+}
+
+class Entrega {
+  
+}
+
+
+
+RequisicaoCompra "1" --> "0..1" PedidoCompra : gera >
+PedidoCompra "1" *-- "1..*" ItemPedido
+ItemPedido "*" --> "1" Material
+Responsavel "1" --> "0..*" PedidoCompra : assina >
+ComprasCentrais "1" --> "0..*" PedidoCompra : envia >
+Fornecedor "1" <-- "0..*" PedidoCompra : destinado a
+PedidoCompra "1" --> "0..*" Entrega
+Almoxarifado "1" --> "0..*" Entrega : acompanha >
+ComprasCentrais ..> Fornecedor : contata em caso de atraso
+
+note right of Entrega
+  O fornecedor e contatado quando a entrega
+  nao ocorre em ate um mes apos o envio.
+end note
+
+@enduml

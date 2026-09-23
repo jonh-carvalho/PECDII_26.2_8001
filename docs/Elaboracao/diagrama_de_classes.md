@@ -13,8 +13,8 @@ O Diagrama de Classes é uma representação visual das classes, seus atributos,
 
 Este documento define um modelo para:
 
-1. **Inserção do Diagrama de Classes Conceitual** (visão de domínio).  
-2. **Evolução para o Diagrama de Classes de Especificação** (visão de projeto).  
+1. **Inserção do Diagrama de Classes Conceitual** (visão de domínio). AP1 
+2. **Evolução para o Diagrama de Classes de Especificação** (visão de projeto). AP2  
 
 Ambos devem ser derivados de:
 
@@ -122,7 +122,6 @@ Refinar o modelo conceitual para uma estrutura orientada à implementação.
 
 ### 5) Entregáveis
 
-- Diagrama de Classes Conceitual (imagem + fonte);
-- Diagrama de Classes de Especificação (imagem + fonte);
-- Tabelas de rastreabilidade preenchidas;
-- Registro de validação com equipe e stakeholders.
+- Diagrama de Classes Conceitual (imagem + fonte); AP1
+- Diagrama de Classes de Especificação (imagem + fonte); AP2
+- Tabelas de rastreabilidade preenchidas; AP2.
