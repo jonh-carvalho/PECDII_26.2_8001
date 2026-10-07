@@ -31,14 +31,14 @@ nav:
           - 05 - RUP/UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
         - Elaboração:
           - 08 - Requisitos: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
-#        - Construção:
-#          - POO:
-#            - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
-#            - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
-#          - Django:
-#            - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
-#            - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
-#            - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
+        - Construção:
+          - POO:
+            - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
+            - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
+          - Django:
+            - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
+            - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
+            - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
 #          - BD:
 #            - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
 #            - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md 
