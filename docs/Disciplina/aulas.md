@@ -11,6 +11,15 @@
 | __07__ - 16/09/26     | :material-check: Ibmec Day|
 | __08__ - 23/09/26     | :material-check: <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
 | __09__ - 30/09/26     | :material-check: AP1 |
+| __10__ - 07/10/26     | :material-check: Feriado  |
+| __11__ - 14/10/25     | :material-check: Roteiro Django Rest - Intro Python BD |
+| __12__ - 21/10/25     | :material-check: Roteiro Streaming - Content 1xN|
+| __13__ - 28/10/25     | :material-check: Roteiro Streaming - Relacionamentos - PlayList NxN -  |
+| __14__ - 04/11/25     | :material-check: Roteiro Autenticação |
+| __15__ - 11/11/25     | :material-check: Feriado |
+| __16__ - 18/11/25     | :material-check: AP2 |
+| __17__ - 25/11/25     | :material-check: |
+| __18__ - 02/12/25     | :material-check: AS |
 <!--
 
 | __06__ - 03/04/26     | :material-check: Feriado |
