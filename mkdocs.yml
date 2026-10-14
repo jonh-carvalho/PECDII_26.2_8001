@@ -39,9 +39,10 @@ nav:
             - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
 #            - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
             - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
-#          - BD:
-#            - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
-#            - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md 
+          - BD:
+            - Intro BD: Disciplina/Roteiros/Construcao/BD/intro_bd.ipynb
+            - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
+            - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md 
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
       - Avaliações: Disciplina/avaliacoes.md
