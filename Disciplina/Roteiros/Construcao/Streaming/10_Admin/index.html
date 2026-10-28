@@ -11,6 +11,10 @@
       
       
       
+        <link rel="prev" href="../07_Swagger/">
+      
+      
+        <link rel="next" href="../../../Iniciacao/04_DesignThinking/">
       
       
       <link rel="icon" href="../../../../../assets/ibmec_icon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>10 - Django Admin - PECDII_26.2_8001</title>
+        <title>Admin - PECDII_26.2_8001</title>
       
     
     
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              10 - Django Admin
+              Admin
             
           </span>
         </div>
@@ -248,10 +252,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../../../aulas/" class="md-tabs__link">
           
   
@@ -432,8 +438,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -456,12 +464,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -475,7 +483,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Disciplina
@@ -507,8 +515,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -526,16 +536,22 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -549,7 +565,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Streaming
@@ -689,6 +705,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../05_Playlist_NxN/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relacionamentos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_Shell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../07_Swagger/" class="md-nav__link">
         
   
@@ -698,6 +756,199 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Admin
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Admin
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-modeladmin-customizacao-de-exibicao-dos-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. ModelAdmin: Customização de Exibição dos Modelos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-campos-de-ordenacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Campos de Ordenação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-campos-de-edicao-inline" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Campos de Edição Inline
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-personalizacao-dos-formularios-de-edicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Personalização dos Formulários de Edição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-acoes-personalizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ações Personalizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-filtros-e-campos-de-busca-personalizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Filtros e Campos de Busca Personalizados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-edicao-em-lote" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Edição em Lote
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-customizacao-de-templates-e-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Customização de Templates e CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-completo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo Completo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-permissoes-e-controle-de-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Permissões e Controle de Acesso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-content-exemplo-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Modelo Content (exemplo base)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#admin-personalizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Admin personalizado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regras-aplicadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Regras aplicadas:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 

@@ -11,6 +11,10 @@
       
       
       
+        <link rel="prev" href="../05_Playlist_NxN/">
+      
+      
+        <link rel="next" href="../07_Swagger/">
       
       
       <link rel="icon" href="../../../../../assets/ibmec_icon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>06 - Django Shell - PECDII_26.2_8001</title>
+        <title>Shell - PECDII_26.2_8001</title>
       
     
     
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              06 - Django Shell
+              Shell
             
           </span>
         </div>
@@ -248,10 +252,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../../../aulas/" class="md-tabs__link">
           
   
@@ -432,8 +438,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -456,12 +464,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -475,7 +483,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Disciplina
@@ -507,8 +515,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -526,16 +536,22 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -549,7 +565,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Streaming
@@ -689,11 +705,228 @@
   
   
     <li class="md-nav__item">
+      <a href="../05_Playlist_NxN/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relacionamentos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Shell
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Shell
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acessando-o-django-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acessando o Django Shell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possibilidades-no-django-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Possibilidades no Django Shell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-criar-um-novo-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Criar um novo conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-listar-todos-os-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Listar todos os conteúdos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-filtrar-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Filtrar conteúdos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-atualizar-um-conteudo-existente" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Atualizar um conteúdo existente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-excluir-um-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Excluir um conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-consultas-avancadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Consultas avançadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-verificar-metodos-personalizados-se-houver" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Verificar métodos personalizados (se houver)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-verificar-a-contagem-de-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Verificar a contagem de conteúdos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../07_Swagger/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Swagger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_Admin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin
   </span>
   
 
