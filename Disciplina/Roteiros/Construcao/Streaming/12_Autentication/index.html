@@ -11,6 +11,10 @@
       
       
       
+        <link rel="prev" href="../10_Admin/">
+      
+      
+        <link rel="next" href="../13_Filtros/">
       
       
       <link rel="icon" href="../../../../../assets/ibmec_icon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>12 - Autenticação - PECDII_26.2_8001</title>
+        <title>Autenticação - PECDII_26.2_8001</title>
       
     
     
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              12 - Autenticação
+              Autenticação
             
           </span>
         </div>
@@ -248,10 +252,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../../../aulas/" class="md-tabs__link">
           
   
@@ -432,8 +438,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -456,12 +464,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -475,7 +483,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Disciplina
@@ -507,8 +515,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -532,16 +542,26 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -555,7 +575,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Streaming
@@ -758,11 +778,249 @@
   
   
     <li class="md-nav__item">
+      <a href="../08_CorsOrigin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CorsOrigin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_Consume_Web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Consumo Frontend
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../10_Admin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Admin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Autenticação
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Autenticação
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autenticacao-via-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autenticação via Token
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Autenticação via Token">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-configurar-autenticacao-por-token-no-django-rest-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 1: Configurar Autenticação por Token no Django REST Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-gerar-tokens-de-autenticacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 2: Gerar Tokens de Autenticação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-obter-o-token-de-autenticacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 3: Obter o Token de Autenticação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-usar-o-token-para-consumir-a-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 4: Usar o Token para Consumir a API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 4: Usar o Token para Consumir a API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-consumo-no-postman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Consumo no Postman
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternativa-uso-no-frontend-com-javascript-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternativa: Uso no Frontend com JavaScript (Fetch API)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Considerações Finais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_Filtros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Filtros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_Regras_Negocio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Regras de Negócio Avançadas
   </span>
   
 
