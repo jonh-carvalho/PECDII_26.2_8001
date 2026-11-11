@@ -14,7 +14,7 @@
         <link rel="prev" href="../14_Regras_Negocio/">
       
       
-        <link rel="next" href="../../../Iniciacao/04_DesignThinking/">
+        <link rel="next" href="../15_Deploy/">
       
       
       <link rel="icon" href="../../../../../assets/ibmec_icon.png">
@@ -554,6 +554,8 @@
       
         
       
+        
+      
     
     
     
@@ -1057,7 +1059,7 @@
           <li class="md-nav__item">
   <a href="#etapa-1-testes-unitarios-models" class="md-nav__link">
     <span class="md-ellipsis">
-      🔵 Etapa 1: Testes Unitários (Models)
+      Etapa 1: Testes Unitários (Models)
     </span>
   </a>
   
@@ -1066,7 +1068,7 @@
           <li class="md-nav__item">
   <a href="#etapa-2-testes-de-integracao-views-e-bd" class="md-nav__link">
     <span class="md-ellipsis">
-      🟢 Etapa 2: Testes de Integração (Views e BD)
+      Etapa 2: Testes de Integração (Views e BD)
     </span>
   </a>
   
@@ -1075,7 +1077,7 @@
           <li class="md-nav__item">
   <a href="#etapa-3-testes-de-api-rest" class="md-nav__link">
     <span class="md-ellipsis">
-      🟡 Etapa 3: Testes de API REST
+      Etapa 3: Testes de API REST
     </span>
   </a>
   
@@ -1150,7 +1152,7 @@
           <li class="md-nav__item">
   <a href="#sim" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Sim
+      Sim
     </span>
   </a>
   
@@ -1159,7 +1161,7 @@
           <li class="md-nav__item">
   <a href="#nao" class="md-nav__link">
     <span class="md-ellipsis">
-      ❌ Não
+      Não
     </span>
   </a>
   
@@ -1210,6 +1212,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_Deploy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deploy
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2540,7 +2563,7 @@
 </span></code></pre></div>
 <hr />
 <h2 id="3-roteiro-de-testes-por-etapas">3. <strong>Roteiro de Testes por Etapas</strong><a class="headerlink" href="#3-roteiro-de-testes-por-etapas" title="Permanent link">&para;</a></h2>
-<h3 id="etapa-1-testes-unitarios-models">🔵 <strong>Etapa 1: Testes Unitários (Models)</strong><a class="headerlink" href="#etapa-1-testes-unitarios-models" title="Permanent link">&para;</a></h3>
+<h3 id="etapa-1-testes-unitarios-models"><strong>Etapa 1: Testes Unitários (Models)</strong><a class="headerlink" href="#etapa-1-testes-unitarios-models" title="Permanent link">&para;</a></h3>
 <p><strong>Objetivo</strong>: Validar a lógica de modelos</p>
 <p><strong>Casos de Teste Simples</strong>:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># tests/test_models.py</span>
@@ -2598,7 +2621,7 @@
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>pytest<span class="w"> </span>content_app/tests/test_models.py<span class="w"> </span>-v
 </span></code></pre></div></p>
 <hr />
-<h3 id="etapa-2-testes-de-integracao-views-e-bd">🟢 <strong>Etapa 2: Testes de Integração (Views e BD)</strong><a class="headerlink" href="#etapa-2-testes-de-integracao-views-e-bd" title="Permanent link">&para;</a></h3>
+<h3 id="etapa-2-testes-de-integracao-views-e-bd"><strong>Etapa 2: Testes de Integração (Views e BD)</strong><a class="headerlink" href="#etapa-2-testes-de-integracao-views-e-bd" title="Permanent link">&para;</a></h3>
 <p><strong>Objetivo</strong>: Validar fluxos que envolvem múltiplos componentes</p>
 <p><strong>Casos de Teste</strong>:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># tests/test_views.py</span>
@@ -2662,7 +2685,7 @@
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pytest<span class="w"> </span>content_app/tests/test_views.py<span class="w"> </span>-v
 </span></code></pre></div></p>
 <hr />
-<h3 id="etapa-3-testes-de-api-rest">🟡 <strong>Etapa 3: Testes de API REST</strong><a class="headerlink" href="#etapa-3-testes-de-api-rest" title="Permanent link">&para;</a></h3>
+<h3 id="etapa-3-testes-de-api-rest"><strong>Etapa 3: Testes de API REST</strong><a class="headerlink" href="#etapa-3-testes-de-api-rest" title="Permanent link">&para;</a></h3>
 <p><strong>Objetivo</strong>: Validar endpoints HTTP</p>
 <p><strong>Casos de Teste</strong>:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># tests/test_api.py</span>
@@ -2789,7 +2812,7 @@
 </span></code></pre></div>
 <hr />
 <h2 id="5-boas-praticas">5. <strong>Boas Práticas</strong><a class="headerlink" href="#5-boas-praticas" title="Permanent link">&para;</a></h2>
-<h3 id="sim">✅ <strong>Sim</strong><a class="headerlink" href="#sim" title="Permanent link">&para;</a></h3>
+<h3 id="sim"><strong>Sim</strong><a class="headerlink" href="#sim" title="Permanent link">&para;</a></h3>
 <ul>
 <li>✓ Um teste = uma responsabilidade</li>
 <li>✓ Use <code>setup_method()</code> para dados iniciais</li>
@@ -2798,7 +2821,7 @@
 <li>✓ Teste casos de sucesso E de erro</li>
 <li>✓ Mockeia dependências externas</li>
 </ul>
-<h3 id="nao">❌ <strong>Não</strong><a class="headerlink" href="#nao" title="Permanent link">&para;</a></h3>
+<h3 id="nao"><strong>Não</strong><a class="headerlink" href="#nao" title="Permanent link">&para;</a></h3>
 <ul>
 <li>✗ Não dependa de ordem de execução dos testes</li>
 <li>✗ Não use dados do banco de dados de produção</li>
