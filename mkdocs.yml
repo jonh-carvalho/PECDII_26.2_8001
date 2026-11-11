@@ -24,7 +24,8 @@ nav:
             - Autenticação: Disciplina/Roteiros/Construcao/Streaming/12_Autentication.md
             - Filtros: Disciplina/Roteiros/Construcao/Streaming/13_Filtros.md
             - Regras de Negócio Avançadas: Disciplina/Roteiros/Construcao/Streaming/14_Regras_Negocio.md
-#            - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
+            - Tests: Disciplina/Roteiros/Construcao/Streaming/16_Testes_Introducao.md
+            - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
       - Roteiros:
         - Iniciação: 
           - 05 - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md

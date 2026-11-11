@@ -83,7 +83,7 @@ streaming_platform/
 
 ## 3. **Roteiro de Testes por Etapas**
 
-### 🔵 **Etapa 1: Testes Unitários (Models)**
+### **Etapa 1: Testes Unitários (Models)**
 
 **Objetivo**: Validar a lógica de modelos
 
@@ -149,7 +149,7 @@ pytest content_app/tests/test_models.py -v
 
 ---
 
-### 🟢 **Etapa 2: Testes de Integração (Views e BD)**
+### **Etapa 2: Testes de Integração (Views e BD)**
 
 **Objetivo**: Validar fluxos que envolvem múltiplos componentes
 
@@ -221,7 +221,7 @@ pytest content_app/tests/test_views.py -v
 
 ---
 
-### 🟡 **Etapa 3: Testes de API REST**
+### **Etapa 3: Testes de API REST**
 
 **Objetivo**: Validar endpoints HTTP
 
@@ -367,7 +367,7 @@ pytest -v -s
 
 ## 5. **Boas Práticas**
 
-### ✅ **Sim**
+### **Sim**
 - ✓ Um teste = uma responsabilidade
 - ✓ Use `setup_method()` para dados iniciais
 - ✓ Nomeie testes de forma descritiva: `test_should_do_something_when_condition`
@@ -375,7 +375,7 @@ pytest -v -s
 - ✓ Teste casos de sucesso E de erro
 - ✓ Mockeia dependências externas
 
-### ❌ **Não**
+### **Não**
 - ✗ Não dependa de ordem de execução dos testes
 - ✗ Não use dados do banco de dados de produção
 - ✗ Não escreva testes muito longos (>20 linhas)
