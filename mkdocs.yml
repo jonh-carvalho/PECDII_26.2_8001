@@ -6,6 +6,7 @@ copyright: Copyright ©️ 2026, Jonh Carvalho
 
 nav: 
   - Home: index.md
+  - Avaliação do Projeto: avalia.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
       - Streaming: 
