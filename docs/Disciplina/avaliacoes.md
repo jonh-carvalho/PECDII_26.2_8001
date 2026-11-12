@@ -3,8 +3,8 @@
 ## Principais Datas de Entregas de Projeto
 
 - AP1 - 30/09/2026 - **Início as 13h30min**
-- AP2 - 17/06/2026
-- AS  - 29/06/2026
+- AP2 - 18/11/2026
+- AS  - 25/11/2026
 - AC  - Ao longo do semestre através da realização das Issues descritas no repositório da disciplina
 
 ### Avaliação Continuada (AC) 
